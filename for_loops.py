@@ -1,4 +1,4 @@
-# for loop acts as iterator so it goes through items in a sequnce or any iterable item so
+# for loop acts as iterator so it goes through items in a sequence or any iterable item so
 # strings, lists, tuples and even built-in iterables for dictionaries such as keys or values
 
 #Example 1: simple for loop
@@ -11,7 +11,7 @@ for num in list1:
 #Example 2: print only even numbers from list
 
 for num in list1:
-    if num%2 == 0:
+    if num % 2 == 0:
         print(num)
     else:
         print("Odd number")
@@ -38,7 +38,7 @@ for t in tup:
     print(t)
 
 #Example 6: Tuple unpacking - When iterating through sequence that contains tuples, the item can be a tuple itself so we
-# will be unpacking the tuple inside of seqence we can access items inside that tuple
+# will be unpacking the tuple inside of sequence we can access items inside that tuple
 
 list2 = [(2, 4), (6, 8), (10, 12)]
 

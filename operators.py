@@ -1,5 +1,5 @@
 # RANGE - generate a list of integers with 3 parameters start, stop and step
-# this is a generator function so to get a list we need to cast wuth list()
+# this is a generator function so to get a list we need to cast with list()
 
 x = list(range(0, 11))
 print(x)
@@ -28,10 +28,10 @@ for i, let in enumerate('abcde'):
 
 # ZIP - it is a generator
 
-# notice the fotmat enumerate returns and let's transform it to a list
+# notice the format enumerate returns and let's transform it to a list
 print(list(enumerate('abcde')))
 # [(0, 'a'), (1, 'b'), (2, 'c'), (3, 'd'), (4, 'e')]
-# It was a list of tuples so we can use tuple unpacking durig a for loop.
+# It was a list of tuples so we can use tuple unpacking during a for loop.
 # We can use zip function to quickly create a list of tuples by zipping up together two lists
 
 mylist1 = [1, 2, 3, 4, 5]
