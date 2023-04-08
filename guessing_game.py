@@ -14,7 +14,6 @@
 
 from random import randint
 random_number = randint(1, 100)
-print(random_number)
 game_is_on = True
 turn_count = 0
 last_diff = 0
@@ -25,6 +24,7 @@ while game_is_on:
     diff = abs(random_number - guess)
     if diff == 0:
         print(f"Guessed correctly. It took {turn_count} guesses")
+        break
     elif guess < 1 or guess > 100:
         print("OUT OF BOUNDS")
         continue
@@ -38,8 +38,6 @@ while game_is_on:
             print("COLDER!")
         else:
             print("WARMER!")
-    print(diff)
-    print(last_diff)
     last_diff = diff
 
 
