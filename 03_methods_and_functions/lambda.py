@@ -25,7 +25,7 @@ mynames = ['John', 'Cindy', 'Sarah', 'Kelly', 'Mike']
 
 print(list(map(splicer, mynames)))
 
-# FILTER FUNCTION -
+# FILTER FUNCTION - return iterator itmes for which fuction(item) return True
 print("FILTER function")
 
 
